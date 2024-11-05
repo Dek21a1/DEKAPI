@@ -5,7 +5,7 @@ from flask_limiter import Limiter
 from flask_limiter.util import get_remote_address
 import logging
 
-import database_manager as dbhandler
+import database_manager as dbHandler
 
 
 api = Flask(__name__)
@@ -13,16 +13,21 @@ cors = CORS(api)
 api.config["CORS_HEADERS"] = "Content-Type"
 limiter = Limiter(
     get_remote_address,
-    app=api;
+    app=api,
     default_limits=["200 per day", "50 per hour"],
     storage_uri="memory://",
 )
 
-
 @api.route("/", methods=["GET"])
 @limiter.limit("3/second", override_defaults=False)
 def get():
-    return ("API Works"), 200
+    if request.args.get("lang") and request.args.get("lang").isalpha():
+        lang = request.args.get("lang")
+        lang = lang.upper()
+        content = dbHandler.extension_get(lang)
+    else:
+        content = dbHandler.extension_get("%")
+    return (content), 200
 
 
 @api.route("/add_extension", methods=["POST"])
