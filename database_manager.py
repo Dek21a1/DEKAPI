@@ -7,7 +7,7 @@ from flask import current_app
 def extension_get(lang):
     con = sql.connect(".database/data_source.db")
     cur = con.cursor()
-    cur.execute("SELECT * FROM extension WHERE language LIKE ?", [lang])
+    cur.execute("SELECT * FROM extension WHERE language LIKE ?;", [lang])
     migrate_data = [
         dict(
             extID=row[0],
@@ -55,12 +55,12 @@ schema = {
         "name": {"type": "string"},
         "hyperlink": {
             "type": "string",
-            "pattern": "^https:\\/\\/marketplace\\.visualstudio\\.com\\/items\\?itemName=(?!.*[<>])[a-zA-Z0-9\\-._~:\/?#\\[\\]@!$&'()*+,;=]*$",
+            "pattern": "^https:\\/\\/marketplace\\.visualstudio\\.com\\/items\\?itemName=(?!.*[<>])[a-zA-Z0-9-._~:\/?#\\[\\]@!$&'()*\\+,;=]*$",
         },
         "about": {"type": "string"},
         "image": {
             "type": "string",
-            "pattern": "^https:\\/\\/(?!.*[<>])[a-zA-Z0-9\\-._~:\/?#\\[\\]@!$&'()*+,;=]*$",
+            "pattern": "^https:\\/\\/(?!.*[<>])[a-zA-Z0-9-._~:\/?#\\[\\]@!$&'()*\\+,;=]*$",
         },
         "language": {
             "type": "string",

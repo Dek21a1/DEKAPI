@@ -7,6 +7,15 @@ import logging
 
 import database_manager as dbHandler
 
+api_log = logging.getLogger(__name__)
+logging.basicConfig(
+    filename="api_security_log.log",
+    encoding="utf-8",
+    level=logging.DEBUG,
+    format="%(asctime)s %(message)s",
+)
+
+auth_key = "iSLE4daua20YwGA4"
 
 api = Flask(__name__)
 cors = CORS(api)

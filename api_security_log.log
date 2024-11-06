@@ -1,0 +1,51 @@
+2024-11-06 22:03:44,246 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:3000
+ * Running on http://10.0.0.55:3000
+2024-11-06 22:03:44,246 [33mPress CTRL+C to quit[0m
+2024-11-06 22:03:44,247  * Restarting with stat
+2024-11-06 22:03:44,513  * Debugger is active!
+2024-11-06 22:03:44,514  * Debugger PIN: 825-380-991
+2024-11-06 22:07:51,188 127.0.0.1 - - [06/Nov/2024 22:07:51] "[31m[1mPOST /add_extension HTTP/1.1[0m" 400 -
+2024-11-06 22:08:58,210  * Detected change in '/workspaces/DEKAPI/database_manager.py', reloading
+2024-11-06 22:08:58,252  * Restarting with stat
+2024-11-06 22:08:58,543  * Debugger is active!
+2024-11-06 22:08:58,543  * Debugger PIN: 825-380-991
+2024-11-06 22:09:40,207 127.0.0.1 - - [06/Nov/2024 22:09:40] "[31m[1mPOST /add_extension HTTP/1.1[0m" 400 -
+2024-11-06 22:09:40,721 ratelimit 1 per 1 second (127.0.0.1) exceeded at endpoint: post
+2024-11-06 22:09:40,722 127.0.0.1 - - [06/Nov/2024 22:09:40] "[31m[1mPOST /add_extension HTTP/1.1[0m" 429 -
+2024-11-06 22:09:40,889 ratelimit 1 per 1 second (127.0.0.1) exceeded at endpoint: post
+2024-11-06 22:09:40,889 127.0.0.1 - - [06/Nov/2024 22:09:40] "[31m[1mPOST /add_extension HTTP/1.1[0m" 429 -
+2024-11-06 22:09:41,055 ratelimit 1 per 1 second (127.0.0.1) exceeded at endpoint: post
+2024-11-06 22:09:41,056 127.0.0.1 - - [06/Nov/2024 22:09:41] "[31m[1mPOST /add_extension HTTP/1.1[0m" 429 -
+2024-11-06 22:09:44,370 127.0.0.1 - - [06/Nov/2024 22:09:44] "[31m[1mPOST /add_extension HTTP/1.1[0m" 400 -
+2024-11-06 22:10:03,890 127.0.0.1 - - [06/Nov/2024 22:10:03] "[31m[1mPOST /add_extension HTTP/1.1[0m" 400 -
+2024-11-06 22:10:04,041 ratelimit 1 per 1 second (127.0.0.1) exceeded at endpoint: post
+2024-11-06 22:10:04,041 127.0.0.1 - - [06/Nov/2024 22:10:04] "[31m[1mPOST /add_extension HTTP/1.1[0m" 429 -
+2024-11-06 22:10:07,924 127.0.0.1 - - [06/Nov/2024 22:10:07] "[31m[1mPOST /add_extension HTTP/1.1[0m" 400 -
+2024-11-06 22:12:28,392  * Detected change in '/workspaces/DEKAPI/database_manager.py', reloading
+2024-11-06 22:12:28,432  * Restarting with stat
+2024-11-06 22:12:28,704  * Debugger is active!
+2024-11-06 22:12:28,705  * Debugger PIN: 825-380-991
+2024-11-06 22:13:35,130 127.0.0.1 - - [06/Nov/2024 22:13:35] "[31m[1mPOST /add_extension HTTP/1.1[0m" 400 -
+2024-11-06 22:13:36,544 127.0.0.1 - - [06/Nov/2024 22:13:36] "[31m[1mPOST /add_extension HTTP/1.1[0m" 400 -
+2024-11-06 22:14:28,751 127.0.0.1 - - [06/Nov/2024 22:14:28] "[31m[1mPOST /add_extension HTTP/1.1[0m" 400 -
+2024-11-06 22:14:30,071 127.0.0.1 - - [06/Nov/2024 22:14:30] "[31m[1mPOST /add_extension HTTP/1.1[0m" 400 -
+2024-11-06 22:14:31,263 127.0.0.1 - - [06/Nov/2024 22:14:31] "[31m[1mPOST /add_extension HTTP/1.1[0m" 400 -
+2024-11-06 22:15:55,506  * Detected change in '/workspaces/DEKAPI/database_manager.py', reloading
+2024-11-06 22:15:55,546  * Restarting with stat
+2024-11-06 22:15:55,812  * Debugger is active!
+2024-11-06 22:15:55,813  * Debugger PIN: 825-380-991
+2024-11-06 22:15:59,007 127.0.0.1 - - [06/Nov/2024 22:15:59] "[31m[1mPOST /add_extension HTTP/1.1[0m" 400 -
+2024-11-06 22:16:00,601 127.0.0.1 - - [06/Nov/2024 22:16:00] "[31m[1mPOST /add_extension HTTP/1.1[0m" 400 -
+2024-11-06 22:18:38,884 127.0.0.1 - - [06/Nov/2024 22:18:38] "[31m[1mPOST /add_extension HTTP/1.1[0m" 400 -
+2024-11-06 22:18:40,821 127.0.0.1 - - [06/Nov/2024 22:18:40] "[31m[1mPOST /add_extension HTTP/1.1[0m" 400 -
+2024-11-06 22:18:42,765 127.0.0.1 - - [06/Nov/2024 22:18:42] "[31m[1mPOST /add_extension HTTP/1.1[0m" 400 -
+2024-11-06 22:19:27,812  * Detected change in '/workspaces/DEKAPI/database_manager.py', reloading
+2024-11-06 22:19:27,851  * Restarting with stat
+2024-11-06 22:19:28,124  * Debugger is active!
+2024-11-06 22:19:28,124  * Debugger PIN: 825-380-991
+2024-11-06 22:19:50,546  * Detected change in '/workspaces/DEKAPI/database_manager.py', reloading
+2024-11-06 22:19:50,584  * Restarting with stat
+2024-11-06 22:19:50,852  * Debugger is active!
+2024-11-06 22:19:50,853  * Debugger PIN: 825-380-991
