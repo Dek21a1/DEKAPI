@@ -34,7 +34,8 @@ def get():
 @limiter.limit("1/second", override_defaults=False)
 def post():
     data = request.get_json()
-    return data, 201
+    response = dbHandler.extension_add(data)
+    return response
 
 if __name__ == "__main__":
     api.run(debug=True, host="0.0.0.0", port=3000)
