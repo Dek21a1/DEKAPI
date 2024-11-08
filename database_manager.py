@@ -51,7 +51,7 @@ schema = {
         "image",
         "language",
     ],
-    "propeties": {
+    "properties": {
         "name": {"type": "string"},
         "hyperlink": {
             "type": "string",

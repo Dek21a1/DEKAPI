@@ -150,3 +150,41 @@
 2024-11-06 23:20:13,902  * Restarting with stat
 2024-11-06 23:20:14,173  * Debugger is active!
 2024-11-06 23:20:14,174  * Debugger PIN: 825-380-991
+2024-11-08 02:25:08,127 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:3000
+ * Running on http://10.0.1.142:3000
+2024-11-08 02:25:08,128 [33mPress CTRL+C to quit[0m
+2024-11-08 02:25:08,128  * Restarting with stat
+2024-11-08 02:25:08,451  * Debugger is active!
+2024-11-08 02:25:08,452  * Debugger PIN: 101-921-258
+2024-11-08 02:25:18,288 127.0.0.1 - - [08/Nov/2024 02:25:18] "[31m[1mPOST /add_extension HTTP/1.1[0m" 400 -
+2024-11-08 02:25:20,631 127.0.0.1 - - [08/Nov/2024 02:25:20] "[31m[1mPOST /add_extension HTTP/1.1[0m" 400 -
+2024-11-08 02:25:21,935 127.0.0.1 - - [08/Nov/2024 02:25:21] "[31m[1mPOST /add_extension HTTP/1.1[0m" 400 -
+2024-11-08 02:25:23,194 127.0.0.1 - - [08/Nov/2024 02:25:23] "[31m[1mPOST /add_extension HTTP/1.1[0m" 400 -
+2024-11-08 02:28:34,423  * Detected change in '/workspaces/DEKAPI/database_manager.py', reloading
+2024-11-08 02:28:34,466  * Restarting with stat
+2024-11-08 02:28:34,739  * Debugger is active!
+2024-11-08 02:28:34,739  * Debugger PIN: 101-921-258
+2024-11-08 02:28:45,710  * Detected change in '/workspaces/DEKAPI/database_manager.py', reloading
+2024-11-08 02:28:45,760  * Restarting with stat
+2024-11-08 02:28:46,041  * Debugger is active!
+2024-11-08 02:28:46,042  * Debugger PIN: 101-921-258
+2024-11-08 02:28:55,986 127.0.0.1 - - [08/Nov/2024 02:28:55] "[31m[1mPOST /add_extension HTTP/1.1[0m" 400 -
+2024-11-08 02:28:57,064 127.0.0.1 - - [08/Nov/2024 02:28:57] "[31m[1mPOST /add_extension HTTP/1.1[0m" 400 -
+2024-11-08 02:29:22,961 127.0.0.1 - - [08/Nov/2024 02:29:22] "[31m[1mPOST /add_extension HTTP/1.1[0m" 400 -
+2024-11-08 02:30:41,683 127.0.0.1 - - [08/Nov/2024 02:30:41] "[31m[1mPOST /add_extension HTTP/1.1[0m" 400 -
+2024-11-08 02:30:45,000 127.0.0.1 - - [08/Nov/2024 02:30:45] "[31m[1mPOST /add_extension HTTP/1.1[0m" 400 -
+2024-11-08 02:31:39,357  * Detected change in '/workspaces/DEKAPI/database_manager.py', reloading
+2024-11-08 02:31:39,395  * Restarting with stat
+2024-11-08 02:31:39,678  * Debugger is active!
+2024-11-08 02:31:39,678  * Debugger PIN: 101-921-258
+2024-11-08 02:31:57,829  * Detected change in '/workspaces/DEKAPI/database_manager.py', reloading
+2024-11-08 02:31:57,870  * Restarting with stat
+2024-11-08 02:31:58,148  * Debugger is active!
+2024-11-08 02:31:58,148  * Debugger PIN: 101-921-258
+2024-11-08 02:32:19,206  * Detected change in '/workspaces/DEKAPI/database_manager.py', reloading
+2024-11-08 02:32:19,250  * Restarting with stat
+2024-11-08 02:32:19,545  * Debugger is active!
+2024-11-08 02:32:19,546  * Debugger PIN: 101-921-258
+2024-11-08 02:32:20,313 127.0.0.1 - - [08/Nov/2024 02:32:20] "[35m[1mPOST /add_extension HTTP/1.1[0m" 201 -
